@@ -1,0 +1,38 @@
+/* 
+Theme Name: Portfolio
+Theme Author: Atikul Islam
+version: 1.0.0
+
+
+Table of Content
+=====================
+1.Home Page:
+    1.1) Top Bar
+    1.2) Nav Bar
+    1.3) Banner Part
+    1.4) Features
+    1.5) New Arrivals
+    1.6) Discount
+    1.7) Best Seller
+    1.8) Deals Of The Days
+    1.9) Special offer
+    1.10) Blog
+    1.11) Promotion
+    1.12) Footer
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import "nav";
+@import "index";
+@import "reset";
+
+:root{
+    --bgColor: #212428;
+    --commonColor: #ffffff;
+    --secondaryColor: #ff014f;
+    --darkase: #878e99;
+    --primaryFont: 'Montserrat', sans-serif;
+    --shadowOne: 0px 0px 9px 0px #ff014f,0px 10px 15px -3px rgba(0,0,0,0.1);
+    --shadowTwo: 0px 0px 50px rgba(21, 26, 50, 0.1);
+    --shadowThree: 0px 5px 30px rgba(17, 22, 30, 0.08);
+}
+

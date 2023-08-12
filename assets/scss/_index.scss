@@ -1,0 +1,57 @@
+body{
+    background: var(--bgColor);
+    font-family: var(--praimaryFont);
+}
+
+// Banner Section End
+#banner{
+    height: 700px;
+    color: var(--commonColor);
+    font-family: 'Montserrat', sans-serif;;
+    .bannerContent{
+        h6{
+            font-size: 16px;
+            line-height: 28px;
+        }
+        h2{
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 62px;
+        }
+        p{
+            font-size: 14px;
+            line-height: 26px;
+        }
+
+        .socialLink{
+            margin-top: 20px;
+            ul{
+                list-style-type: none;
+                padding: 0;
+                li{
+                    margin-right: 20px;
+                    a{
+                        display: inline-block;
+                        width: 40px;
+                        height: 40px;
+                        background: var(--secondaryColor);
+                        text-align: center;
+                        line-height: 20px;
+                        font-size: 16px;
+                        color: var(--commonColor);
+                        border: 2px solid transparent;
+                        padding: 10px;
+                        transition: 0.5s;
+                        overflow: hidden;
+                        
+                        &:hover{
+                            background: transparent;
+                            border: 2px solid var(--secondaryColor);
+                            box-shadow: var(--shadowOne);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

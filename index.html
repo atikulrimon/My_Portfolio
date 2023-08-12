@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rimon</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <!-- FavIcon Css -->
+    <link rel="shortcut icon" href="./assets/images/logo.jpg" type="image/x-icon">
+
+    <!-- SLICK CSS -->
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./assets/css/style.min.css">
+</head>
+<body>
+
+    <!--Navbar Section Start -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container">
+                <a href="index.html" class="logoMain d-flex align-items-center">
+                    <img src="./assets/images/logo.png" class="logoImg img-fluid" alt="">
+                </a>
+    
+                <button class="navbar-toggler navResponBtn "data-bs-toggle="" data-bs-target="#main_menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="main_menu">
+                    <ul class="navbar-nav ms-auto mx-xl-auto nav_list">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link nav-itemHome">home</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Portfolio</a>
+                        </li>
+    
+                        <li class="nav-item navPage">
+                            <a href="#" class="nav-link">Blogs</a>
+                            
+                        </li>
+    
+    
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">contact</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <!-- Downlaod CV -->
+                <div class="dowloadItem d-none d-xl-block">
+
+                    <a href="#" id="style-2" download="" data-replace="Download CV"><span>Download CV</span></a>
+                </div>
+            </div>
+    </nav>
+    
+
+    <!--Mobile Menu Section Start -->
+    <!-- <section id="mobileMenu">
+            <div class="menuSide">
+    
+                <div class="mobileMenuClose">
+                    <button class="mobilmenuHide">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+    
+                <div class="mobileMenuLogo">
+                    <a href="index.html">
+                        <img src="./assets/images/logo.png" alt="" class="img-fluid">
+                    </a>
+                </div>
+    
+                <div class="MobileMenuContent">
+                    <div class="mobileLink">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Home
+                                    <button class="mobileMenuArrow" type="button" data-bs-toggle="collapse" data-bs-target="#sideMenuDropdown1" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                      </button>
+                                </a>
+    
+                                <div class="collapse sideMenuDropdown" id="sideMenuDropdown1">
+                                    <ul class="MobileDropdown">
+                                        <li>
+                                            <a href="#">Home One</a>
+                                        </li>
+                                        <li>
+                                            <a href="index.html">Home Two</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Home Three</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Home Four</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                
+                            </li>
+        
+                            <li>
+                                <a href="about.html">
+                                    About
+                                </a>
+                                
+                            </li>
+        
+                            <li>
+                                <a href="#">
+                                    Pages
+                                    <button class="mobileMenuArrow" type="button" data-bs-toggle="collapse" data-bs-target="#sideMenuDropdown2" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                      </button>
+                                </a>
+    
+                                <div class="collapse sideMenuDropdown" id="sideMenuDropdown2">
+                                    <ul class="MobileDropdown">
+                                        <li>
+                                            <a href="#">Playlist 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Playlist 2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Playlist 3</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Playlist 4</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                
+                            </li>
+        
+                            <li>
+                                <a href="shop.html">
+                                    Shop
+                                    <button class="mobileMenuArrow" type="button" data-bs-toggle="collapse" data-bs-target="#sideMenuDropdown3" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                      </button>
+                                </a>
+    
+                                <div class="collapse sideMenuDropdown" id="sideMenuDropdown3">
+                                    <ul class="MobileDropdown">
+                                        <li>
+                                            <a href="shop.html">Shop</a>
+                                        </li>
+                                        <li>
+                                            <a href="shopDetails.html">Shop Details</a>
+                                        </li>
+                                        <li>
+                                            <a href="cart.html">Cart Page</a>
+                                        </li>
+                                        <li>
+                                            <a href="compare.html">Compare</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Wishlist</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                
+                            </li>
+        
+                            <li>
+                                <a href="#">
+                                    Blog
+                                    <button class="mobileMenuArrow" type="button" data-bs-toggle="collapse" data-bs-target="#sideMenuDropdown4" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                      </button>
+                                </a>
+    
+                                <div class="collapse sideMenuDropdown" id="sideMenuDropdown4">
+                                    <ul class="MobileDropdown">
+                                        <li>
+                                            <a href="blog.html">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Blog Two</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Blog Three</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Blog Details</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                
+                            </li>
+        
+                            <li class="border-0">
+                                <a href="contact.html">
+                                    Contact
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </div>
+                    <div class="mobileBottumMenu">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-regular fa-user"></i>
+                                    Login/Register
+                                </a>
+                            </li>
+    
+                            <li>
+                                <a href="#">
+                                    <i class="fa-regular fa-heart"></i>
+                                    Wishlist
+                                </a>
+                            </li>
+    
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    Basket 
+                                    <span>$318.00</span></a>
+                            </li>
+    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    <!--Mobile Menu Section End -->
+    
+    <!--Navbar Section End -->
+
+    <!--Banner Section Start -->
+    <section id="banner">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="bannerImg">
+                    <img src="" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-12 col-lg-7 h-100">
+                    <div class="bannerContent d-flex align-items-center h-100">
+                        <div>
+                            <h6>Welcome to my Portfolio</h6>
+                            <h2>Hi, I’m Atikul Islam<br><span>a Web Designer.</span></h2>
+                            <p>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
+                            
+                            <div class="socialLink">
+                                <ul class="d-flex align-items-center">
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4"></div>
+            </div>
+        </div>
+    </section>
+    <!--Banner Section End -->
+
+
+
+    <!--Back To Top Section Start -->
+    <!-- <section id="backToTop">
+        <button class="backToTopBtn"><i class="fa-solid fa-arrow-up"></i></button>
+    </section> -->
+    <!--Back To Top Section End -->
+
+
+    <!-- Jqury Js -->
+    <script src="./assets/js/jquery-3.7.0.min.js"></script>
+     <!-- SLICK JS -->
+    <script src="./assets/js/slick.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Main Js -->
+    <script src="./assets/js/app.js"></script>
+    
+</body>
+</html>
